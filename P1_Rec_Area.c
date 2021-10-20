@@ -4,12 +4,12 @@
 
 int main()
 { 
-    float length, breadth, area;
-    printf("Enter Length(cm) : ");
-    scanf("%f",&length);
-    printf("Enter Breadth(cm) : ");
-    scanf("%f",&breadth);
-    area = length * breadth;
+    float l, b, area;
+    printf("Enter Length(in cm) : ");
+    scanf("%f",&l);
+    printf("Enter Breadth(in cm) : ");
+    scanf("%f",&b);
+    area = l * b;
     printf("Area of Rectangle is : %f sq. cm", area);
     return 0;
 }
