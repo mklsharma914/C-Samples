@@ -2,17 +2,17 @@
 
 int main()
 {
-    int a;
-    printf("# Even-Odd check :-\n\n");
+    int num;
+    printf("# To check a number is even or odd :-\n\n");
     printf("Enter a number : ");
-    scanf("%d",&a);
-    if(a%2==0)
+    scanf("%d",&num);
+    if(num%2==0)
     {
-        printf("%d is Even.",a);
+        printf("%d is Even.",num);
     }
     else
     {
-        printf("%d is Odd.",a);
+        printf("%d is Odd.",num);
     }
 
     return 0;
